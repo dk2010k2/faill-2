@@ -1,0 +1,1007 @@
+@charset "utf-8";
+/* CSS Document */
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box
+}
+html{
+	scroll-behavior: smooth
+}
+@font-face {
+  font-family: Arcane;
+  src: url( "arcan.ttf")
+}
+@font-face {
+  font-family: Arcanetf;
+  src: url("Helvetica-Neue-Viet-hoa/Helvetica/helvetica-neue-regular.ttf")
+}
+@font-face {
+  font-family: tieude;
+  src: url( "Beaufort for LOL Bold.ttf")
+}
+ .justify-end{
+	display: flex;
+	align-items: center;
+	align-content: center;
+    justify-content: flex-end;
+	
+}
+.menu   a{
+	margin: 0px 15px;
+	color:white;
+	text-decoration: none;
+    font-family: tieude;
+	font-size: 22px
+		
+}
+.menu a:hover{
+	text-decoration: none;
+	color: red
+}
+.nav-mobile{
+	display: none;
+	color: white;
+	text-decoration: none;
+	font-size: 24px;
+	text-align: right;
+	margin-right: 20px;
+	
+}
+.close{
+	position: fixed;
+	right: 10px;
+	top:20px;
+	z-index: 2000000;
+	color: white;
+	display: none;
+	text-decoration: none;
+	font-weight: 700;
+
+}
+
+.footer{
+	height: 55px;
+	padding-top:10px;
+	padding-bottom: 30px;
+	border-top: 3px solid red;
+	background:  #252423
+		
+}
+.footer a{
+	    margin: 0px 24px;
+    color: white;
+    text-decoration: none;
+    font-family: tieude;
+    font-size:22px;
+	
+}
+.footer a:hover{
+	color:red
+}
+header{
+	width: 100%;
+	position: fixed;
+	z-index: 1050;
+    background: #252423;
+	border-bottom: 3px solid #D03738
+}
+.logo img{
+	height: 70px;
+	
+}
+.btn{
+	border-radius: 202px;
+	text-decoration: none;
+	font-family: Arcane;
+	color: white;
+	text-decoration: none;
+	border: 1px solid red;
+	padding:5px 20px;
+	font-size: 30px
+}
+.btn2{
+	border-radius: 202px;
+	text-decoration: none;
+	font-family: Arcane;
+	color: white;
+	text-decoration: none;
+	border: 1px solid red;
+	padding:5px 80px;
+	background: red;
+	margin: 0 150px 0 ;
+	
+}
+.btn:hover{
+	background: red;
+	color: white
+}
+.btn2:hover{
+	background: white;
+	color:red
+}
+.phone{
+	color: black!important;
+	text-decoration: none;
+	margin-right: 24px;
+	font-family: Arcane;
+	font-size: 30px
+}
+.banners{
+	background-image: url( "hình ảnh/banner.jpg");
+	background-size:cover;
+	width: 100%;
+    height:750px;
+	object-fit: cover;
+	z-index: 50;
+	background-position: 100% 12%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+.banner-ct{
+	color: black;
+	text-align: left;
+    position: absolute;
+    top: 380px;
+    left:20%;
+    transform: translate(-50%, -50%);
+	padding: 40px 10px;
+	
+}
+
+.p-1{
+	font-family:Arcanetf
+}
+.logoarcane{
+	height: 165px;
+	
+}
+.p02{
+	animation: fade 1s linear
+}
+.p02 p{
+	font-size: 20px
+}
+.p02 a{
+	font-size: 20px
+}
+.About{
+	background: #E8E8E8;
+	
+}
+.texta{
+	margin-top: 70px;
+	;
+  
+}
+.texta h1{
+	font-size: 70px;
+	font-family: Arcane;
+	color:#BA8A63
+}
+.texta p{
+	font-size: 18px;
+	font-family: Arcanetf
+}
+.poster{
+	width: 100%;
+	display: flex;
+	margin-top:50px;
+	
+}
+@keyframes fade{
+	from{
+		opacity: 0;
+		transform: translate(-50px)
+	}
+	to{
+		opacity: 1;
+		transform: translate(0px)
+	}
+}
+.poster img{
+	height: 500px;
+	margin: 80px 0;
+	position: relative;
+	filter: drop-shadow(0 0 0.80rem crimson);
+	 
+}
+
+.oxanh{
+	background: #255793;
+	height: 500px;
+	width: 360px;
+	position: absolute;
+	margin-left: -90px;
+	margin-top: 40px;
+	opacity: 50%;
+
+}
+.odo{
+	background: #DB405C;
+	height: 500px;
+	width: 360px;
+	position: absolute;
+	margin-left: 80px;
+	margin-top: 130px;
+	opacity: 50%;
+
+}
+.monkey{
+	position: absolute;
+	height: 200px;
+	margin-top:480px;
+	margin-left: 1100px
+}
+.box{
+	height: 680px;
+	width: 360px;
+	overflow: hidden
+}
+.box-2{
+	text-align: center;
+   
+	overflow: hidden
+}
+.box-3{
+	text-align: center;
+
+	overflow: hidden
+}
+.box-2 img{
+	box-shadow:  12px 15px 5px 2px #DB405C
+}
+.box-3 img{
+	box-shadow:  12px 15px 5px 2px #255793
+}
+.anhsang img{
+	transition: all 0.5s ease;
+}
+.anhsang:hover img{
+	transform: scale(1.1);
+	filter:brightness(120%);
+}
+.jinx{
+	display: flex
+}
+.vi{
+	display: flex
+}
+.caitlyn {
+	display: flex
+}
+.ekko{
+	display: flex
+}
+.jayce{
+	display: flex
+}
+.viktor{
+	display: flex
+}
+.jinx  img{
+	height: 500px;
+	
+}
+.viktor img{
+	height: 500px
+}
+.ekko  img{
+	height: 500px;
+	
+}
+.caitlyn img{
+	height: 500px
+}
+.vi  img{
+	height: 500px
+}
+.jayce img{
+	height: 500px
+}
+.button-left{
+	border: none;
+   padding: 8px 15px;
+   position: relative;
+	top:-250px;
+	color: white;
+	background-color:#BA8A63;
+	font-size: 20px
+}
+.button-left:hover {
+	background: white;
+	color: #BA8A63;
+	border: 1px solid #BA8A63
+}
+.button-right{
+	border: none;
+	padding: 8px 15px;
+	float:right;
+	position: relative;
+	top:-250px;
+	color: white;
+	background-color:#BA8A63;
+	font-size: 20px
+	
+}
+.button-right:hover {
+	background: white;
+	color: #BA8A63;
+	border: 1px solid #BA8A63
+}
+.ct{
+	display: flex;
+}
+.hct {
+	font-family: Arcane;
+	margin-top:50px;
+	color: #BA8A63;
+	font-size:40px;
+}
+
+.ifo{
+	font-family: Arcane;
+	margin-left: 144px;
+	font-size:60px;
+	color: #BA8A63;
+	font-size:40px;
+	margin-top:50px;
+}
+
+.textjinx h3{
+	font-family: tieude;
+	animation: fade 0.5s linear
+}
+.textjinx h2{
+	font-family: tieude;
+	color: #BA8A63;
+	font-size: 20px;
+	animation: fade 0.5s linear
+}
+.textjinx h1{
+	font-family: Arcane;
+	font-size: 80px;
+	color:#255793;
+	animation: fade 0.5s linear
+}
+.textviktor h3{
+	font-family: tieude;
+	animation: fade 0.5s linear
+}
+.textviktor h2{
+	font-family:tieude;
+	color: #BA8A63;
+	font-size: 20px;
+	animation: fade 0.5s linear
+}
+.textviktor h1{
+	font-family: Arcane;
+	font-size: 80px;
+	color:#E16B36;
+	animation: fade 0.5s linear
+}
+.textvi h3{
+	font-family: tieude;
+	animation: fade 0.5s linear
+}
+.textvi h2{
+	font-family: Atieude;
+	color: #BA8A63;
+	font-size: 20px;
+	animation: fade 0.5s linear
+}
+.textvi h1{
+	font-family: Arcane;
+	font-size: 80px;
+	color:#DB405C;
+	animation: fade 0.5s linear
+}
+.textcaitlyn h3{
+	font-family:tieude;
+	animation: fade 0.5s linear
+}
+.textcaitlyn h2{
+	font-family: tieude;
+	color: #BA8A63;
+	font-size: 20px;
+	animation: fade 0.5s linear
+}
+.textcaitlyn h1{
+	font-family: Arcane;
+	font-size: 80px;
+	color:#463A6E;
+	animation: fade 0.5s linear
+}
+.textekko h3{
+	font-family: tieude;
+	animation: fade 0.5s linear
+}
+.textekko h2{
+	font-family:tieude;
+	color: #BA8A63;
+	font-size: 20px;
+		animation: fade 0.5s linear
+}
+.textekko h1{
+	font-family: Arcane;
+	font-size: 80px;
+	color:#C5C6C8;
+	animation: fade 0.5s linear
+}
+.textjayce h3{
+	font-family: tieude;
+	animation: fade 0.5s linear
+}
+.textjayce h2{
+	font-family: tieude;
+	color: #BA8A63;
+	font-size: 20px;
+	animation: fade 0.5s linear
+}
+.textjayce h1{
+	font-family: Arcane;
+	font-size: 80px;
+	color:#BD9E63;
+	animation: fade 0.5s linear
+}
+.hinhjinx:hover img{
+	 
+	transform: scale(1.1);
+
+}
+.hinhviktor:hover img{
+	 
+	transform: scale(1.1);
+
+}
+.hinhvi:hover img{
+	 
+	transform: scale(1.1);
+
+}
+.hinhcaitlyn:hover img{
+	transform: scale(1.1)
+}
+.hinhekko:hover img{
+	transform: scale(1.1)
+}
+.hinhjayce:hover img{
+	transform: scale(1.1)
+}
+.hinhjinx img{
+	transition: all 0.5s ease;
+}
+.hinhviktor img{
+	transition: all 0.5s ease;
+}
+.hinhvi img{
+	transition: all 0.5s ease;
+}
+.hinhcaitlyn img{
+	transition: all 0.5s ease;
+}
+.hinhekko img{
+	transition: all 0.5s ease;
+}
+.hinhjayce img{
+	transition: all 0.5s ease;
+}
+#truyenngan{
+	background: white
+}
+.tieude{
+	color: #BA8A63;
+	font-family: Arcane;
+	font-size: 48px;
+text-align: center
+}
+.storyposvi img{
+	height:450px;
+	margin-top: 20px;
+    
+}
+.storyposjinx img{
+	height:450px;
+	margin-top: 20px;
+    
+	
+}
+.storyposjinx{
+	justify-content: center;
+	display: flex;
+	flex-direction: column
+}
+.storyposvi{
+	justify-content: center;
+	display: flex;
+	flex-direction: column
+}
+.st{
+	padding-top: 80px;
+    margin-top: -40px;
+	padding-bottom: 50px;
+	padding-bottom: 50px
+}
+.ct{
+	padding-top: 80px;
+	margin-top: -50px;
+	
+}
+
+.xs{
+	display: flex
+}
+.storyposvi h1{
+	font-family: tieude;
+	color: #DB405C;
+	font-size: 35px;
+	text-align: center;
+	padding-top:5px
+}
+.storyposvi h3{
+	font-family:  tieude;
+	color:#BA8A63;
+	font-size: 20px;
+	text-align: center;
+	padding-top:5px
+}
+.storyposjinx h1{
+	font-family: tieude;
+	color:  #255793;
+	font-size: 35px;
+	text-align: center;
+	padding-top:5px
+}
+.storyposjinx h3{
+	font-family: tieude;
+	color: #BA8A63;
+	font-size: 20px;
+	text-align: center;
+	padding-top:5px
+}
+
+.logo-2 img{
+	height: 80px;
+	color: black
+}
+.bannerx{
+	width: 100%;
+    height:750px;
+	object-fit: cover;
+	z-index: 50;
+	background-position: 100% 12%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+.tae .h5{
+	font-size:60px ;
+	font-family: Arcane;
+	color: #BA8A63;
+	padding-top: 80px;
+	margin-top: -50px;
+	
+
+}
+.noidung1 .nhom1{
+	width: 250px;
+	float: left;
+    padding: 0 25px;
+	background: #FFFFFF;
+	margin-top: 15px
+	
+}
+
+ .nhom1 img {
+	width: 80px;
+   display: inline;
+}
+ .nhom1 h2 {
+	 display: inline;
+	position: absolute;
+	 margin-top:20px;
+	 font-family: tieude
+	
+}
+.nhom1 h4{
+	display: inline;
+	position: absolute;
+	margin-top:50px;
+	font-family: tieude
+	
+}
+.nhom1 p{
+	font-family: Arcanetf
+}
+.posterphim img{
+	height: 470px;
+	position: relative
+}
+.posterphim{
+	text-align: center
+}
+.rate{
+	margin-top: -15px;
+	
+}
+.nhom1{
+	padding-top: 20px;
+	padding-left: 50px;
+
+	
+}
+.mag{
+	margin: 30px 0 70px 0;
+	
+	
+}
+.ovang-1{
+	height: 500px;
+	position: absolute;
+	background:  #255793;
+	width: 360px;
+	margin-left:150px;
+	margin-top: -15px;
+	opacity: 50%
+}
+.ovang-2{
+	height: 500px;
+	position: absolute;
+	background: #DB405C;
+	width: 360px;
+	margin-left:50px;
+	margin-top: -15px;
+	opacity: 50%
+}
+.ngancach{
+	color: #BA8A63;
+	width: 500px;
+	margin-left: 50px;
+	margin-top: 30px
+}
+@media screen and (max-width:430px){
+	.menu{
+		display: none;
+	    position: fixed;
+		left: 0;
+		top:0;
+		width: 100%;
+		height: 100%;
+		background: rgba(0,0,0,0.80);
+		z-index: 10000000;
+		animation: menu 2s 1 backwards
+	}
+	.menu ul{
+		flex-direction: column;
+		justify-content: center;
+		align-content: center;
+		height: 100%;
+		z-index: 1000000;
+		
+	}
+	.menu li a{
+		color: white;
+		
+	}
+ 	.nav-mobile{
+		display: block
+	}
+	.close{
+		display: block;
+		
+	}
+}
+@keyframes menu{
+	from{
+		opacity: 0;
+		transform: translate(200px)
+	}
+	to{
+		opacity: 1;
+		transform: translate(0px)
+	}
+}
+@media screen and (max-width:430px){
+	.banner {
+		width: 100%;
+	}
+	.p02 {
+		color: white;
+		display: flex;
+		flex-wrap: wrap;
+	    position: absolute;
+		left: 10%;
+		
+		
+	}
+	.p02 p{
+		font-size:18px;
+        padding: 0 0 0 20px
+		
+	}
+	.banner-ct{
+		position: absolute;
+		left: 5%;
+		top:250px
+	}	
+	.logoarca {		
+		padding: 24px;			
+	}	
+	.logoarcane img{		
+		height: 120px;		
+		position: absolute;	                   	
+		left: 30%	
+	}	
+	.btn2{	
+		padding: 5px 40px	
+	}
+}
+@media screen and (max-width:430px){
+	.poster{
+		width: 100%
+	}
+	.okiem {
+		width: 100%;
+		
+	}
+	.okiem img{
+		height: 350px
+	}
+	.box{
+		width: 100%
+	}
+	.box img{
+		width: 100%;
+	
+	}
+	.oxanh{
+		opacity: 0;
+			width:0px;
+		height: 0px
+	}
+	.odo{
+		opacity: 0;
+			width:0px;
+		height: 0px
+	}
+	.box{
+		width: 100%
+	}
+	.poster{
+		display: flex;
+		
+	}
+	.texta{
+		padding-left: 10px
+	}
+	.texta h1{
+		font-size: 50px;
+		
+	}
+	.texta p{
+		font-size: 12px
+	}
+}
+@media screen and (max-width:430px){
+	.ct{
+		width: 100%
+	}
+	.hct  h1{
+		font-size: 35px
+	}
+	.ifo h1{
+		font-size: 35px
+	}
+	
+	.jinx img{
+		height: 280px
+	}
+	.textjinx h1{
+		font-size:50px
+	}
+	.textjinx h3{
+		font-size:10px
+	}
+	.textjinx h2{
+		font-size:15px
+	}
+	.textjinx{
+		padding-left: 50px
+	}
+	.vi img{
+		height: 280px
+	}
+	.textvi h1{
+		font-size:50px
+	}
+	.textvi h3{
+		font-size:10px
+	}
+	.textvi h2{
+		font-size:15px
+	}
+	.textvi{
+		padding-left: 50px
+	}
+	.caitlyn img{
+		height: 280px
+	}
+	.textcaitlyn h1{
+		font-size:50px
+	}
+	.textcaitlyn h3{
+		font-size:10px
+	}
+	.textcaitlyn h2{
+		font-size:15px
+	}
+	.textcaitlyn{
+		padding-left: 50px
+	}
+	.ekko img{
+		height: 280px
+	}
+	.textekko h1{
+		font-size:50px
+	}
+	.textekko h3{
+		font-size:10px
+	}
+	.textekko h2{
+		font-size:15px
+	}
+	.textekko{
+		padding-left: 50px
+	}
+	.jayce img{
+		height: 280px
+	}
+	.textjayce h1{
+		font-size:50px
+	}
+	.textjayce h3{
+		font-size:10px
+	}
+	.textjayce h2{
+		font-size:15px
+	}
+	.textjayce{
+		padding-left: 50px
+	}
+	.viktor img{
+		height: 280px
+	}
+	.textviktor h1{
+		font-size:50px
+	}
+	.textviktor h3{
+		font-size:10px
+	}
+	.textviktor h2{
+		font-size:15px
+	}
+	.textviktor{
+		padding-left: 50px
+	}
+}
+@media screen and (max-width:430px){
+	.mag{
+		width: 100%
+	}
+	.rate{
+		width: 100%
+	}
+	.magl{
+		width: 100%
+	}
+	.nhom1 {
+		width: 100%;
+		padding-right: 10px;
+		display: flex;
+		flex-direction: column;
+		
+	}
+	.nhom1 img{
+		width: 80px
+	}
+	.nhom1 h2{
+		font-size: 18px;
+		margin-top: 80px
+	}
+	.nhom1 h4{
+		font-size:10px;
+		margin-top: 100px;
+	}
+	.nhom1 p{
+		font-size: 10px;
+		margin-top: 35px
+	}
+	.posterphim img{
+		height: 500px;
+		width: 100%
+	}
+	.ovang-1{
+		opacity: 0;
+		width: 0px;
+		height: 0px
+	}
+	.ovang-2{
+		opacity: 0;
+		width: 0px;
+		height: 0px
+	}
+}
+@media screen and (max-width:430px){
+	.storyposvi img{
+		height: 400px;
+		width: 200px;
+	}
+	.storyposjinx img{
+		height: 400px;
+		width: 200px;
+       ;
+	}
+	.storyposvi h1{
+		font-size: 20px
+	}
+	.storyposjinx h1{
+		font-size: 20px
+	}
+	
+	.footer a{
+		font-size: 12px
+	}
+		.monkey{
+		opacity: 0;
+		width: 0px;
+		height: 0px
+	}
+}
+.truyeb{
+	margin-top: 150px
+}
+  .truyeb .tieude-1 h1{
+	text-align: center;
+	color: #255793;
+	  font-family: tieude;
+	  font-size: 50px
+}
+ .truyeb .phu  h3{
+	text-align: center;
+	color:#BA8A63;
+	
+}
+ .cauchuyen{
+	margin: 50px 0 50px 0;
+	 font-family: Arcanetf;
+	
+}
+ .cauchuyen p{
+	font-family: Arcanetf;
+	color: white
+}
+.truyenngan{
+	background: #252423
+}
+.truyea{
+	margin-top: 150px
+}
+ .truyea .tieude-1 h1{
+	text-align: center;
+	color:#DB405C;
+	  font-family: tieude;
+	  font-size: 50px
+}
+ .truyea .phu  h3{
+	text-align: center;
+	color:#BA8A63;
+	
+}
+ .truyea .cauchuyen{
+	margin: 50px 0 50px 0;
+	 font-family: Arcanetf;
+	
+}
+
+
